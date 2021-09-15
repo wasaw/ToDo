@@ -14,6 +14,10 @@
 		BBFDB68426EB8A5D00768062 /* ToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BBFDB68226EB8A5D00768062 /* ToDo.xcdatamodeld */; };
 		BBFDB68626EB8A6200768062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBFDB68526EB8A6200768062 /* Assets.xcassets */; };
 		BBFDB68926EB8A6200768062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBFDB68726EB8A6200768062 /* LaunchScreen.storyboard */; };
+		BBFDB69426EB950300768062 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFDB69326EB950300768062 /* Model.swift */; };
+		BBFDB69626F09F8200768062 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFDB69526F09F8200768062 /* HomeController.swift */; };
+		BBFDB69B26F21EC400768062 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFDB69926F21EC400768062 /* HomeTableViewCell.swift */; };
+		BBFDB69C26F21EC400768062 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBFDB69A26F21EC400768062 /* HomeTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		BBFDB68526EB8A6200768062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBFDB68826EB8A6200768062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBFDB68A26EB8A6200768062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBFDB69326EB950300768062 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BBFDB69526F09F8200768062 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		BBFDB69926F21EC400768062 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		BBFDB69A26F21EC400768062 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,9 @@
 		BBFDB67826EB8A5D00768062 /* ToDo */ = {
 			isa = PBXGroup;
 			children = (
+				BBFDB69226EB8AFF00768062 /* Control */,
+				BBFDB69126EB8AF800768062 /* View */,
+				BBFDB69026EB8AEF00768062 /* Model */,
 				BBFDB67926EB8A5D00768062 /* AppDelegate.swift */,
 				BBFDB67B26EB8A5D00768062 /* SceneDelegate.swift */,
 				BBFDB67D26EB8A5D00768062 /* ViewController.swift */,
@@ -68,6 +79,31 @@
 				BBFDB68226EB8A5D00768062 /* ToDo.xcdatamodeld */,
 			);
 			path = ToDo;
+			sourceTree = "<group>";
+		};
+		BBFDB69026EB8AEF00768062 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BBFDB69326EB950300768062 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BBFDB69126EB8AF800768062 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BBFDB69926F21EC400768062 /* HomeTableViewCell.swift */,
+				BBFDB69A26F21EC400768062 /* HomeTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BBFDB69226EB8AFF00768062 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				BBFDB69526F09F8200768062 /* HomeController.swift */,
+			);
+			path = Control;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +165,7 @@
 			files = (
 				BBFDB68926EB8A6200768062 /* LaunchScreen.storyboard in Resources */,
 				BBFDB68626EB8A6200768062 /* Assets.xcassets in Resources */,
+				BBFDB69C26F21EC400768062 /* HomeTableViewCell.xib in Resources */,
 				BBFDB68126EB8A5D00768062 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,9 +177,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBFDB69426EB950300768062 /* Model.swift in Sources */,
 				BBFDB67E26EB8A5D00768062 /* ViewController.swift in Sources */,
+				BBFDB69626F09F8200768062 /* HomeController.swift in Sources */,
 				BBFDB67A26EB8A5D00768062 /* AppDelegate.swift in Sources */,
 				BBFDB67C26EB8A5D00768062 /* SceneDelegate.swift in Sources */,
+				BBFDB69B26F21EC400768062 /* HomeTableViewCell.swift in Sources */,
 				BBFDB68426EB8A5D00768062 /* ToDo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
